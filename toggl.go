@@ -5,7 +5,7 @@ Package toggl provides an API for interacting with the Toggl time tracking servi
 See https://github.com/toggl/toggl_api_docs for more information on Toggl's REST API.
 
 */
-package toggl
+package togglclient
 
 import (
 	"bytes"

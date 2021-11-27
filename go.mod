@@ -1,3 +1,3 @@
-module github.com/akira393/go-toggl-client
+module github.com/akira393/togglclient
 
 go 1.13

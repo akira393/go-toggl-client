@@ -14,7 +14,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/akira393/go-toggl-client"
+	"github.com/akira393/togglclient"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 		return
 	}
 
-	session := toggl.OpenSession(os.Args[1])
+	session := togglclient.OpenSession(os.Args[1])
 
 	account, err := session.GetAccount()
 	if err != nil {
